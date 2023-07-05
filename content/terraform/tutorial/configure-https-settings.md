@@ -122,7 +122,7 @@ curl: (35) error:1000042e:SSL routines:OPENSSL_internal:TLSV1_ALERT_PROTOCOL_VER
 As shown above, you should receive an error because TLS 1.3 is not yet enabled on your zone. Enable it by running `terraform apply` and try again.
 
 ```sh
-$ terraform apply --auto-approve
+$ terraform apply
 
 Terraform used the selected providers to generate the following execution plan.
 Resource actions are indicated with the following symbols:
